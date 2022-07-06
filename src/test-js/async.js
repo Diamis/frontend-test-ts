@@ -21,5 +21,5 @@ function testAsync() {
   console.log(res);
 }
 
-console.clear();
+console.clear(); // ??
 testAsync();

@@ -1,7 +1,14 @@
 import React from "react";
+import styled from "styled-components";
 
-import { HTMLLogo } from "./logo.style";
 import { HTMLContainer, HTMLImage } from "./style";
+
+// Отредактируйте HTMLLogo для получения индентичного логотипа
+const HTMLLogo = styled.div`
+  width: 230px;
+  height: 190px;
+  border: 1px solid #c3c3c3;
+`;
 
 export const TestStyle: React.FC<{}> = () => {
   return (
